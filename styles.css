@@ -4,17 +4,17 @@ body {
   justify-content: center;
 }
 .checkbox {
-  position: relative;
+  /* position: relative; */
   width: 26px;
   height: 26px;
   border-radius: 50%;
   background-color: #8c64c9;
-  /* display: flex;
+  display: flex;
   align-items: center;
-  justify-content: center; */
+  justify-content: center;
 }
 .chec {
-  position: absolute;
+  /* position: absolute; */
   top: 6.5px;
   left: 6.5px;
   border-top-style: none;
