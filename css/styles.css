@@ -2,6 +2,7 @@ body {
   display: flex;
   text-align: center;
   justify-content: center;
+  padding-top: 100px;
 }
 .checkbox {
   position: relative;
