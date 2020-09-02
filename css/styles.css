@@ -45,9 +45,14 @@ body {
 }
 
 .check__input {
-  -webkit-appearance: none;
+  position: absolute;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  /* -webkit-appearance: none;
   -moz-appearance: none;
-  appearance: none;
+  appearance: none; */
 }
 
 .check__box {
