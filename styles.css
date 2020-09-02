@@ -9,11 +9,13 @@ body {
   height: 26px;
   border-radius: 50%;
   background-color: #8c64c9;
+
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .chec {
+  margin-bottom: 3px;
   /* position: absolute; */
   top: 6.5px;
   left: 6.5px;
@@ -25,7 +27,7 @@ body {
   border-color: white;
   transform: rotate(314deg);
   border-width: 2px;
-  
+
   height: 25%;
   width: 40%;
 }
