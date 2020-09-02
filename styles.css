@@ -1,0 +1,35 @@
+.checkbox {
+  position: relative;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background-color: #8c64c9;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+}
+.chec {
+  position: absolute;
+  top: 6px;
+  left: 7px;
+  border-top-style: none;
+  border-right: none;
+  border-left-style: solid;
+  border-bottom: solid;
+
+  border-color: white;
+  transform: rotate(314deg);
+  border-width: 2px;
+  /* border-top-left-radius: 10%;
+  border-bottom-left-radius: 10%;
+  border-top-left-radius: 10%;
+  border-bottom-left-radius: 10%;
+  border-end-end-radius: 10%;
+  border-start-start-radius: 10%;
+  border-start-end-radius: 10%;
+  border-end-start-radius: 10%;
+  border-end-end-radius: 10%; */
+  border-radius: 12%;
+  height: 25%;
+  width: 40%;
+}
