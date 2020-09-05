@@ -9,6 +9,7 @@ body {
 
 .option {
   margin-right: 10px;
+  -webkit-tap-highlight-color: rgba(194, 26, 26, 1);
 }
 
 .check__input {
@@ -26,7 +27,7 @@ body {
 }
 
 .check__box {
-  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+  -webkit-tap-highlight-color: rgba(194, 26, 26, 1);
   /* position: absolute; */
   display: block;
   width: 21px;
