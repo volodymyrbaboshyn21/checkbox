@@ -27,7 +27,6 @@ body {
 }
 
 .check__box {
-  -webkit-tap-color: rgba(194, 26, 26, 1);
   /* position: absolute; */
   display: block;
   width: 21px;
@@ -59,3 +58,25 @@ body {
   }
 }
 
+
+/* стили при наведении курсора на checkbox */
+.check__box:not(:disabled):not(:checked)+label:hover::before {
+  border-color: #b3d7ff;
+}
+/* стили для активного состояния чекбокса (при нажатии на него) */
+.check__box:not(:disabled):active+label::before {
+  background-color: #b3d7ff;
+  border-color: #b3d7ff;
+}
+/* стили для чекбокса, находящегося в фокусе */
+.check__box:focus+label::before {
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+/* стили для чекбокса, находящегося в фокусе и не находящегося в состоянии checked */
+.check__box:focus:not(:checked)+label::before {
+  border-color: #80bdff;
+}
+/* стили для чекбокса, находящегося в состоянии disabled */
+.check__box:disabled+label::before {
+  background-color: #e9ecef;
+}
