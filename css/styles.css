@@ -60,23 +60,23 @@ body {
 
 
 /* стили при наведении курсора на checkbox */
-.check__box:not(:disabled):not(:checked)+label:hover::before {
+.check__input:not(:disabled):not(:checked)+label:hover::before {
   border-color: #b3d7ff;
 }
 /* стили для активного состояния чекбокса (при нажатии на него) */
-.check__box:not(:disabled):active+label::before {
+.check__input:not(:disabled):active+label::before {
   background-color: #b3d7ff;
   border-color: #b3d7ff;
 }
 /* стили для чекбокса, находящегося в фокусе */
-.check__box:focus+label::before {
+.check__input:focus+label::before {
   box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
 }
 /* стили для чекбокса, находящегося в фокусе и не находящегося в состоянии checked */
-.check__box:focus:not(:checked)+label::before {
+.check__input:focus:not(:checked)+label::before {
   border-color: #80bdff;
 }
 /* стили для чекбокса, находящегося в состоянии disabled */
-.check__box:disabled+label::before {
+.check__input:disabled+label::before {
   background-color: #e9ecef;
 }
